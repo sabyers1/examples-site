@@ -1,0 +1,81 @@
+/****** Tag Selectors ******/
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+  text-decoration: none;
+}
+
+body{
+    /* background-color: #d9f3fc; */
+     color: #40514E;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 0.9rem;
+     margin: 0;
+     text-align: center;
+ }
+
+ h1 {
+   color: #6fbfbf;
+     /*font-size: .5em;*/
+ }
+
+ h3 {
+   color: #6fbfbf;
+ }
+
+ hr {
+   border-style: none;
+   border-top-style: dotted;
+   border-color: grey;
+   border-width: 10px;
+   width: 8%;
+ }
+
+
+/***** CLASS SELECTORS *****/
+.top_container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 20px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 20px;
+
+}
+.middle-container  {
+  background-color: #EAF6F6;
+  margin: 100px 0;
+}
+.copyright {
+  color: #EAF6F6;
+  font: 0.75rem;
+  padding: 10px;
+}
+.footer-link {
+  padding: 0 30px 0 30px;
+  text-decoration: none;
+}
+.code-snippet-L {
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+.code-snippet-R {
+  width: 100%;
+  float: right;
+  margin-left: 20px;
+}
+.skill-row {
+  /*width: 100%;*/
+  /*line-height: 2;*/
+  margin: 100px auto 100px auto; /* top right bottom left */
+  text-align: left;
+}
+
+/***** ID SELECTORS *****/
