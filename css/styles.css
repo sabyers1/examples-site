@@ -6,26 +6,27 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #024249;
   text-decoration: none;
 }
 
 body{
-    /* background-color: #d9f3fc; */
-     color: #40514E;
+    /*  color: #40514E; */
      font-family: 'Source Sans Pro', sans-serif;
-     font-size: 0.9rem;
+     font-size: 1rem;
      margin: 0;
      text-align: center;
  }
 
  h1 {
    color: #6fbfbf;
-     /*font-size: .5em;*/
  }
 
  h3 {
    color: #6fbfbf;
+ }
+ h6 {
+   margin: 0;
  }
 
  hr {
@@ -35,22 +36,24 @@ body{
    border-width: 10px;
    width: 8%;
  }
-
+ table {
+   border-collapse: separate;
+   border-spacing: 0 24px;
+ }
 
 /***** CLASS SELECTORS *****/
 .top_container {
   background-color: #EAF6F6;
-  position: relative;
-  padding-top: 20px;
+/*  position: relative; */
+  /* padding-top: 20px; */
+}
+.middle-container  {
+  background-color: #EAF6F6;
+  /* position: relative; */
 }
 .bottom-container {
   background-color: #66BFBF;
   padding: 20px 0 20px;
-
-}
-.middle-container  {
-  background-color: #EAF6F6;
-  margin: 100px 0;
 }
 .copyright {
   color: #EAF6F6;
@@ -58,18 +61,22 @@ body{
   padding: 10px;
 }
 .footer-link {
-  padding: 0 30px 0 30px;
+  /* padding: 0 30px 0 30px; */
   text-decoration: none;
+  margin: 0;
 }
 .code-snippet-L {
   width: 100%;
-  float: left;
+/*  float: left; */
   margin-right: 20px;
 }
 .code-snippet-R {
   width: 100%;
-  float: right;
+/*  float: right; */
   margin-left: 20px;
+}
+.code-desc {
+  width: 30%;
 }
 .skill-row {
   /*width: 100%;*/
